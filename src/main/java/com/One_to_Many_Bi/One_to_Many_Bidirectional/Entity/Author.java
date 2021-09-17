@@ -3,7 +3,6 @@ package com.One_to_Many_Bi.One_to_Many_Bidirectional.Entity;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
 public class Author {

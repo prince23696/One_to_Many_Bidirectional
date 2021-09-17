@@ -35,6 +35,7 @@ public class AuthorServiceImpl implements AuthorService {
         author1.setFname(author.getFname());
         author1.setLname(author.getLname());
         author1.setBook(author.getBook());
+        authorRepository.save(author1);
         return author1;
     }
 
